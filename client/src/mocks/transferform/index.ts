@@ -1,11 +1,11 @@
 export let mock_transferform = {
-    Submit: function Submit(params) {
-        this.go("confirmation");
-    },
-    menu: function menu(params) {
-        this.go("menuicons");
-    },
-    Submit2: function Submit2(params) {
-        this.go("confirmation");
-    }
+ Submit: async function Submit(params) {
+ await this.go("confirmation");
+ },
+ menu: async function menu(params) {
+ await this.go("menuicons");
+ },
+ Submit2: async function Submit2(params) {
+ await this.go("confirmation");
+ }
 };

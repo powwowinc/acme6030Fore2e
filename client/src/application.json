@@ -3,7 +3,17 @@
   "description": "",
   "defaultLayout": "PhonePortrait",
   "previewToken": "d16d16fc",
-  "clientVersion": "6.0.30",
+  "clientVersion": "6.1.2",
   "theme": "Essential",
-  "creatorId": "admin"
+  "creatorId": "admin",
+  "isBuiltInTemplate": false,
+  "screensCount": 4,
+  "viewOnly": false,
+  "branch": "master",
+  "isRemote": true,
+  "creatorName": "SmartUX Admin",
+  "explorations": [
+    "acmetransferrequests"
+  ],
+  "created": 1627416963344
 }

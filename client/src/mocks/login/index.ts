@@ -1,5 +1,5 @@
 export let mock_login = {
-    submit: function submit(params) {
-        this.go("transferform");
-    }
+ submit: async function submit(params) {
+ await this.go("transferform");
+ }
 };

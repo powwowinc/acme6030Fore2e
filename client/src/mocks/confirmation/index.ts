@@ -1,5 +1,5 @@
 export let mock_confirmation = {
-    done: function done(params) {
-        this.go("transferform");
-    }
+ done: async function done(params) {
+ await this.go("transferform");
+ }
 };

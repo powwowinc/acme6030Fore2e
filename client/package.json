@@ -1,5 +1,5 @@
 {
-  "name": "Acme Transfer Request",
+  "name": "acme6030fore2e",
   "description": "SmartUX client application",
   "version": "6.0.30",
   "private": true,
@@ -14,7 +14,6 @@
     "build:copy": "cd node_modules/smartux-client/build && node copy.js --path ../../.. && cd ../../..",
     "build:bundle": "npm run build:vendor && npm run build:main",
     "build:vendor": "cd node_modules/smartux-client/build && node bundle.js --path ../../.. --module vendor && cd ../../..",
-    
     "build:main": "cd node_modules/smartux-client/build && node bundle.js --path ../../.. --module main --copy-assets --styles && cd ../../..",
     "build:styles": "cd node_modules/smartux-client/build && node styles.js --path ../../..  && cd ../../.."
   },

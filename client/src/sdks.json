@@ -16,10 +16,6 @@
     "default": true
   },
   {
-    "id": "ionic-plugin-keyboard",
-    "default": true
-  },
-  {
     "id": "cordova-plugin-powwow",
     "default": true
   },
@@ -36,5 +32,13 @@
   },
   {
     "id": "cordova-plugin-keychain-touch-id"
+  },
+  {
+    "id": "cordova-plugin-appminimize",
+    "default": true
+  },
+  {
+    "id": "cordova-plugin-ionic-keyboard",
+    "default": true
   }
 ]
