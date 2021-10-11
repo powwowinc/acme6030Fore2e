@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    startURL: 'http://smartuxlearning.com/assettransfer/login.html',
+    startURL: 'http://ec2-34-222-124-149.us-west-2.compute.amazonaws.com/assettransfer/login.html',
     eventDetection: {
         // The minimum interval for checking events.
         debounceTime: 500,
